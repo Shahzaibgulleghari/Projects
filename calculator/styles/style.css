@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+}
+main {
+    background-color: black;
+    width: 315px;
+    padding: 10px;
+}
+input {
+    width: 304px;
+    height: 60px;
+    margin-bottom: 5px;
+    font-size: x-large;
+    text-align: right;
+    font-weight: 600;
+    margin-bottom: 10px;
+    background-color: #C4DAD2;
+}
+.button-grid {
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px;
+    gap: 4px;
+}
+.input-buttons {
+    height: 75px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: larger;
+    border: none;
+}
+.yellow-buttons {
+    background-color: #FF9100;
+}
+
+.greyish-buttons {
+    background-color: #C4DAD2;
+}
+.green-buttons {
+    background-color: green;
+}
